@@ -4,9 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV Bachurin Dmitriy</title>
 </head>
 <body>
+    <div class="bdStyle">
+        
+        <header>
+            <nav class="nvStyle">
+                <ul class="hdStyle">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Software skills</a></li>
+                    <li><a href="#training">Training</a></li>
+                    <li><a href="#code">Code example</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav><hr>
+        </header>
+
+        <main>
+            <div class="mnStyle">
+                <div style="padding: 10px 20px;">
+                    <img src="./Avatar.jpg" alt="Photo" width="240">
+                    <ul><h2 id= "contact">Contact</h2><hr>
+                        <li>Phone: +375(29)</li>
+                        <li>E-mail: <a href="g.sektorian@gmail.com">g.sektorian@gmail.com</a></li>
+                        <li>Discord: Sektor#7542</li>
+                        <li>City: BY, Brest</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="h1Style">Bachurin Dmitriy</h1>
+                    <h2 style="font-family: Arial, sans-serif; font-style: italic; font-weight: normal; text-align: center;">design engineer</h2>
+                    <h2 id= "about">About me</h2>
+                    <p>I was born in 1986 in Brest. Married. I have two children.</p>
+                    <h2 id= "education">Education</h2>
+                    <p>
+                        2004 - 2009<br>
+                        Brest State Technical University<br>
+                        Machine-Building Technologies<br>
+                    </p>
+                    <p>English: none</p>
+                    <h2 id= "experience">Experience</h2>
+                    <p>
+                        2009 - 2022<br>
+                        Design engineer of a machine-building enteprise
+                    </p>
+                    <h2 id= "skills">Software skills</h2>
+                    <ul> 
+                        <li>MC Office
+                            <ul>&#8728 MS Word</ul>
+                            <ul>&#8728 MS Excel</ul>
+                        </li>
+                        <li>CAD
+                            <ul>&#8728 Ascon Kompas 3D</ul>
+                            <ul>&#8728 Autodesk Inventor</ul>
+                        </li>
+                        <li>IDE
+                            <ul>&#8728 IntelliJ IDEA</ul>
+                            <ul>&#8728 Visual Studio Code</ul>
+                        </li>
+                    </ul>
+                    <h2 id= "training">Training</h2>
+                    <ul>
+                        <li>JavaRush
+                            <ul>&#8728 Java Syntax</ul>
+                        </li>
+                        <li>Code-basic
+                            <ul>&#8728 HTML</ul>
+                            <ul>&#8728 CSS</ul>
+                        </li>
+                        <li>Hexlet
+                            <ul>&#8728 Introduction to Git</ul>
+                        </li>
+                        <li>RS Schools
+                            <ul>&#8728 JavaScript/Front-end. Stage 0» (in progress)</ul>
+                        </li>
+                    </ul>
+                    <h2 id= "code">Code example</h2>
+                    <div style="background-color: rgb(131, 131, 131); border-radius: 10px;">
+                        <pre>
+ <code>
+    public class Solution {
+       public static void main(String[] args) throws Exception {
+          /*
+          Работа программы:
+          Вводить с клавиатуры числа и считать их сумму, пока пользователь не введет слово "сумма".
+          */
+          BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+          double summ=0;
+          while (true) {
+             String s = reader.readLine();
+             if (s.equals("сумма")) {
+                 System.out.println(summ);
+                 break;
+             } else {
+                 double n = Double.parseDouble(s);
+                 summ = summ + n;
+             }
+          }
+       }
+    }</code>
+                        </pre>
+                    </div>
+                    <h2 id= "projects">Projects</h2>
+                    <p>
+                        <ul><li>CV</li></ul>
+                    </p>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <hr>
+            <div class="ftStyle">
+                <p>2022</p>
+                <a href="https://github.com/Sektorian">Github</a>
+                <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" width="80"></a>
+            </div>
+        </footer>
     
+    </div>
+   
 </body>
 </html>

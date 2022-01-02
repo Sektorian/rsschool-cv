@@ -1,4 +1,4 @@
 # rsschool-cv
-[CV#1. Markdown & Git](https://github.com/Sektorian/rsschool-cv/blob/gh-pages/cv.md)
+[CV. Markdown & Git](https://Sektorian.github.io/rsschool-cv/cv)
 
-[CV#2. HTML, CSS & Git Basics](https://github.com/Sektorian/rsschool-cv/blob/rsschool-cv-html/index.html)
+[CV. HTML, CSS & Git Basics](https://Sektorian.github.io/rsschool-cv/)

@@ -40,7 +40,7 @@ Design engineer of a machine-building enteprise
 * Hexlet
    * Introduction to Git
 * RS Schools
-   * [JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)](https://app.rs.school/certificate/oh7ipkqh)
+   * [JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)](https://app.rs.school/certificate/7tww8mta)
 ---
 ## Code example
 ```java

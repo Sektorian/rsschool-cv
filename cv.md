@@ -65,4 +65,7 @@ public class Solution {
 
 ```
 ## Projects
-* CV
+* [Audio player](https://sektorian.github.io/rss_projects/audio-player/)
+* [Memory game](https://sektorian.github.io/rss_projects/memory-game/)
+* [Movie-app](https://sektorian.github.io/rss_projects/movie-app/)
+* [Portfolio](https://sektorian.github.io/rss_projects/portfolio-rise/)

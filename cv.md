@@ -1,10 +1,9 @@
 # Bachurin Dmitriy
 ![My photo](./Avatar.jpg)
-## *design engineer*
+## *Front-end Developer*
 ---
 ## Contact
 
-Phone: +375(29)<br>
 E-mail: g.sektorian@gmail.com <br>
 Discord: **Sektor**#7542<br>
 City: BY, Brest
@@ -41,7 +40,7 @@ Design engineer of a machine-building enteprise
 * Hexlet
    * Introduction to Git
 * RS Schools
-   * JavaScript/Front-end. Stage 0» (in progress)
+   * [JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)](https://app.rs.school/certificate/oh7ipkqh)
 ---
 ## Code example
 ```java
